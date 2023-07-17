@@ -5,7 +5,6 @@ from pyfiglet import figlet_format
 
 text = figlet_format("Send SMS", font="big")
 print(colored(text, "red"))
-print("Created by Your Name")
 
 number = int(input(colored("[+] Número: ", "green")))
 message = input(colored("[+] Mensaje: ", "green"))
