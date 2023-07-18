@@ -6,7 +6,7 @@ from pyfiglet import figlet_format
 text = figlet_format("Send SMS", font="big")
 print(colored(text, "red"))
 
-number = int(input(colored("[+] Número: ", "green")))
+number = input(colored("[+] Número: ", "green"))
 message = input(colored("[+] Mensaje: ", "green"))
 
 resp = requests.post('https://textbelt.com/text', {
