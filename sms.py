@@ -24,7 +24,8 @@ print ("")
 if response["success"] == "true":
    print (colored("El mensaje se ha enviado con éxito", "green"))
 else:
-   print (colored("No se pudo enviar el mensaje por la siguiente razón:", "red"))
-   print ("")
-   print (colored(response["error"], "red"))
+   print (colored("No se pudo enviar el mensaje", "red"))
+   #print (colored("No se pudo enviar el mensaje por la siguiente razón:", "red"))
+   #print ("")
+   #print (colored(response["error"], "red"))
 
