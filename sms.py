@@ -40,7 +40,7 @@ else:
     print ("")
 
     if response["success"] == True:
-       print (colored("[+] El mensaje se ha enviado con éxito.\n", "light_green"))
+       print (colored("[✓] El mensaje se ha enviado con éxito.\n", "light_green"))
 
        # CREA UN ARCHIVO CON LOS DATOS ENVIADOS
        if not os.path.isfile('record.txt'):
