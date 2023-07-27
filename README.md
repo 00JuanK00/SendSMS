@@ -2,18 +2,18 @@
 
 # Instalación:
 
-$ pkg install git
+$ `pkg install git`
 
-$ pkg install python
+$ `pkg install python`
 
-$ python3 -m pip install requests
+$ `python3 -m pip install requests`
 
-$ python3 -m pip install termcolor
+$ `python3 -m pip install termcolor`
 
-$ python3 -m pip install --upgrade setuptools
+$ `python3 -m pip install --upgrade setuptools`
 
-$ git clone https://github.com/00JuanK00/SendSMS.git
+$ `git clone https://github.com/00JuanK00/SendSMS.git`
 
-$ cd SendSMS
+$ `cd SendSMS`
 
-$ python sms.py
+$ `python sms.py`
