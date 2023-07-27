@@ -1,4 +1,3 @@
-
-SendSMS 1.0
+SendSMS 1.2
 Created by: JuanK
 Contact: +5358558319
