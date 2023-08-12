@@ -6,6 +6,8 @@ $ `pkg install git`
 
 $ `pkg install python`
 
+$ `pkg install pip`
+
 $ `python3 -m pip install requests`
 
 $ `python3 -m pip install termcolor`
